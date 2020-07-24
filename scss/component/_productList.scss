@@ -1,0 +1,60 @@
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: theme-color(primary);
+    background-color: theme-color(second);
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+    color: theme-color(primary) !important;
+    background-color: theme-color(second);
+}
+
+.box-shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+}
+
+.box-shadow:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+}
+
+.btn-second {
+    color: theme-color(primary);
+    background-color: theme-color(second);
+    border-color: theme-color(second);
+    font-weight: 700;
+}
+
+.btn-second:hover {
+    color: #fff;
+    background-color: theme-color(primary);
+    border-color: theme-color(primary);
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn-cart {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+    border-bottom: 3px solid transparent;
+    border-radius: 50px;
+    background-color: theme-color(primary);
+    color: #fff;
+    padding: 12px;
+    .badge {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+}

@@ -1,0 +1,26 @@
+- 產品列表 v
+    - 串接API v
+    - 元件化 v
+    - 版型調整 v
+    - 產品列表呈現 v
+        - showDetail Modal v
+- 加入購物車 v
+    - 串接API v
+- 呈現購物車
+    - 版型 v
+    - 清空購物車 v
+        - 串接API v
+    - 刪除購物車某項 v
+        - 串接API v
+    - 修改購物車某項 v
+        - 串接API v
+- 表單驗證 v
+    - 串接API v
+    - 載入套件 v
+    - 驗證邏輯 v
+- Vue filter 價格加入分隔逗點
+
+問題：
+btn loading樣式問題，會同時觸發相同id的loading
+
+元件間isLoading的傳遞(單向資料流，存成另一變數loading標籤又會對不上)
